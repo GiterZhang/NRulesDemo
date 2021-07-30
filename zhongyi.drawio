@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2021-07-30T07:48:09.531Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="14.9.3" etag="wB18iGTtbzlyHGaHXOV7" type="github"><diagram id="AnHZhD2LKf6q0FNM0HZv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-30T08:09:29.488Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="5DZsBYrLTDOPpML7oG36" version="14.9.3" type="github">
+  <diagram id="AnHZhD2LKf6q0FNM0HZv" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MijAl5tLhbfaT5DfQt7M-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="90" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MijAl5tLhbfaT5DfQt7M-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="MijAl5tLhbfaT5DfQt7M-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="MijAl5tLhbfaT5DfQt7M-3" target="MijAl5tLhbfaT5DfQt7M-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MijAl5tLhbfaT5DfQt7M-3" value="CDB" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="105" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MijAl5tLhbfaT5DfQt7M-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="MijAl5tLhbfaT5DfQt7M-4" target="MijAl5tLhbfaT5DfQt7M-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MijAl5tLhbfaT5DfQt7M-4" value="中意" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="105" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MijAl5tLhbfaT5DfQt7M-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="360" y="180" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="MijAl5tLhbfaT5DfQt7M-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="560" y="180" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="MijAl5tLhbfaT5DfQt7M-7" value="请求健告跳转地址" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170" y="240" as="sourcePoint" />
+            <mxPoint x="360" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MijAl5tLhbfaT5DfQt7M-9" value="调用接口GetHealthBook&lt;br&gt;创建健告" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="240" as="sourcePoint" />
+            <mxPoint x="560" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MijAl5tLhbfaT5DfQt7M-12" value="返回健告跳转地址" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.4;exitY=0.143;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="356" y="280.05999999999995" as="sourcePoint" />
+            <mxPoint x="170" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MijAl5tLhbfaT5DfQt7M-13" value="获取健告完成状态" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170" y="360" as="sourcePoint" />
+            <mxPoint x="360" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MijAl5tLhbfaT5DfQt7M-15" value="调用接口GetHealthBook&lt;br&gt;获取健告状态" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="360" as="sourcePoint" />
+            <mxPoint x="560" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MijAl5tLhbfaT5DfQt7M-16" value="返回健告状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1;entryY=0.238;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="556" y="400.04" as="sourcePoint" />
+            <mxPoint x="370" y="400.00000000000006" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="400.04" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MijAl5tLhbfaT5DfQt7M-17" value="返回健告状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1;entryY=0.238;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="356" y="400.03999999999996" as="sourcePoint" />
+            <mxPoint x="170" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="400.04" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MijAl5tLhbfaT5DfQt7M-18" value="返回健告Id" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.4;exitY=0.143;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="556" y="280.05999999999995" as="sourcePoint" />
+            <mxPoint x="370" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
